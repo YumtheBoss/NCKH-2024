@@ -8,7 +8,7 @@ class GuideScreen extends StatelessWidget {
       title: "Hướng dẫn đăng ký",
       body: Center(
         child: Text("Hướng dẫn đăng ký xét tuyển"),
-      ),
+      ), actions: [],
     );
   }
 }

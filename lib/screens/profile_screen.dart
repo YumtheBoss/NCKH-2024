@@ -8,7 +8,7 @@ class ProfileScreen extends StatelessWidget {
       title: "Hồ sơ của tôi",
       body: Center(
         child: Text("Thông tin hồ sơ người dùng"),
-      ),
+      ), actions: [],
     );
   }
 }

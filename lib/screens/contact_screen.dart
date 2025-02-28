@@ -9,7 +9,7 @@ class ContactScreen extends StatelessWidget {
       title: "Liên hệ",
       body: Center(
         child: Text("Thông tin liên hệ"),
-      ),
+      ), actions: [],
     );
   }
 }

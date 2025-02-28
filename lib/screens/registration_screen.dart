@@ -8,7 +8,7 @@ class RegistrationScreen extends StatelessWidget {
       title: "Đăng ký xét tuyển",
       body: Center(
         child: Text("Form đăng ký xét tuyển"),
-      ),
+      ), actions: [],
     );
   }
 }

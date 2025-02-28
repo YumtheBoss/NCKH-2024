@@ -8,7 +8,7 @@ class ResultLookupScreen extends StatelessWidget {
       title: "Tra cứu kết quả",
       body: Center(
         child: Text("Form tra cứu kết quả xét tuyển"),
-      ),
+      ), actions: [],
     );
   }
 }

@@ -14,13 +14,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'App Xét tuyển',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: '/',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white,
+        textTheme: const TextTheme(
+          bodyMedium: TextStyle(color: Colors.white),
+        ),
+      ),
+      initialRoute: '/home', // HomeScreen là màn hình đầu tiên
       routes: {
-        '/': (context) => LoginScreen(),  
-        '/home': (context) => HomeScreen(),
-        '/register': (context) => RegisterScreen(),  
+        '/home': (context) =>  HomeScreen(),
+        '/login': (context) => LoginScreen(),
+        '/register': (context) => RegisterScreen(),
       },
+      debugShowCheckedModeBanner: false,
     );
   }
 }

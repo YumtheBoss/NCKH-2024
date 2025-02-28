@@ -73,7 +73,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
             ),
           ),
         ],
-      ),
+      ), actions: [],
     );
   }
 }
